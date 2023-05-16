@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidConversationsMod", "CandidConversationsMod.csproj", "{7D7089D1-D15B-42E9-B85B-85F33AFE4016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D7089D1-D15B-42E9-B85B-85F33AFE4016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7089D1-D15B-42E9-B85B-85F33AFE4016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7089D1-D15B-42E9-B85B-85F33AFE4016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7089D1-D15B-42E9-B85B-85F33AFE4016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0A5B628-67BA-44A4-8C25-321F5F3DF69C}
+	EndGlobalSection
+EndGlobal

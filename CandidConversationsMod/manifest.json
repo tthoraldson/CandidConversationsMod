@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Candid Conversations Mod",
+  "Author": "Theresa Thoraldson",
+  "Version": "0.0.1",
+  "Description": "Have open ended conversations with Pelican Town residents using the latest and greatest LLM",
+  "UniqueID": "tthoraldson.candidConversations",
+  "EntryDll": "CandidConversationsMod.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}

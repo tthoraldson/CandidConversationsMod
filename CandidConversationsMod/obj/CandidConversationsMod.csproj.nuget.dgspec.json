@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/theresa/Desktop/source/CandidConversationsMod/CandidConversationsMod/CandidConversationsMod.csproj": {}
+  },
+  "projects": {
+    "/Users/theresa/Desktop/source/CandidConversationsMod/CandidConversationsMod/CandidConversationsMod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/theresa/Desktop/source/CandidConversationsMod/CandidConversationsMod/CandidConversationsMod.csproj",
+        "projectName": "CandidConversationsMod",
+        "projectPath": "/Users/theresa/Desktop/source/CandidConversationsMod/CandidConversationsMod/CandidConversationsMod.csproj",
+        "packagesPath": "/Users/theresa/.nuget/packages/",
+        "outputPath": "/Users/theresa/Desktop/source/CandidConversationsMod/CandidConversationsMod/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/theresa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net4.5.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "targetAlias": "net4.5.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "targetAlias": "net4.5.2",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Pathoschild.Stardew.ModBuildConfig": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
