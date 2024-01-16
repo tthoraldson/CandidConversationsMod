@@ -1,0 +1,9 @@
+{
+  "Type": "TextInput",
+  "Caption": "Enter some text:",
+  "Text": "",
+  "MaxLength": 20,
+  "PasswordBox": false,
+  "SubmitButtonCaption": "OK",
+  "CancelButtonCaption": "Cancel"
+}

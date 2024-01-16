@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/vmE2FnfBdtDNBMYyoyFSl/znaLdobnpOdASXTB+k3nWx84I9AOutEJ040ArpgXKueHKLaPK1l18Sx14woE8Rg==",
+  "success": true,
+  "projectFilePath": "/Users/theresa/Desktop/source/CandidConversationsMod/smapi/CandidConversationsMod/CandidConversationsMod.csproj",
+  "expectedPackageFiles": [
+    "/Users/theresa/.nuget/packages/lib.harmony/2.2.2/lib.harmony.2.2.2.nupkg.sha512",
+    "/Users/theresa/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/Users/theresa/.nuget/packages/microsoft.netframework.referenceassemblies.net452/1.0.3/microsoft.netframework.referenceassemblies.net452.1.0.3.nupkg.sha512",
+    "/Users/theresa/.nuget/packages/pathoschild.stardew.modbuildconfig/4.1.1/pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

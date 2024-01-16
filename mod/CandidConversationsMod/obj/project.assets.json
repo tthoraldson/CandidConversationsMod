@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
+      "Lib.Harmony/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/0Harmony.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/0Harmony.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
         "type": "package",
         "dependencies": {
@@ -14,7 +27,7 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net452.targets": {}
         }
       },
-      "Pathoschild.Stardew.ModBuildConfig/4.1.0": {
+      "Pathoschild.Stardew.ModBuildConfig/4.1.1": {
         "type": "package",
         "build": {
           "build/Pathoschild.Stardew.ModBuildConfig.targets": {}
@@ -23,6 +36,35 @@
     }
   },
   "libraries": {
+    "Lib.Harmony/2.2.2": {
+      "sha512": "70KvWz+DiUELxafsYL/LHxA/jH3PDWeApLo/VwtnrpTvRWQ/eUdPfS/l5funmhZWOy41QXw6UjVv+6C57Nx77A==",
+      "type": "package",
+      "path": "lib.harmony/2.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "HarmonyLogo.png",
+        "LICENSE",
+        "lib.harmony.2.2.2.nupkg.sha512",
+        "lib.harmony.nuspec",
+        "lib/net35/0Harmony.dll",
+        "lib/net35/0Harmony.xml",
+        "lib/net45/0Harmony.dll",
+        "lib/net45/0Harmony.xml",
+        "lib/net472/0Harmony.dll",
+        "lib/net472/0Harmony.xml",
+        "lib/net48/0Harmony.dll",
+        "lib/net48/0Harmony.xml",
+        "lib/net5.0/0Harmony.dll",
+        "lib/net5.0/0Harmony.xml",
+        "lib/net6.0/0Harmony.dll",
+        "lib/net6.0/0Harmony.xml",
+        "lib/netcoreapp3.0/0Harmony.dll",
+        "lib/netcoreapp3.0/0Harmony.xml",
+        "lib/netcoreapp3.1/0Harmony.dll",
+        "lib/netcoreapp3.1/0Harmony.xml"
+      ]
+    },
     "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
       "sha512": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
       "type": "package",
@@ -356,10 +398,10 @@
         "microsoft.netframework.referenceassemblies.net452.nuspec"
       ]
     },
-    "Pathoschild.Stardew.ModBuildConfig/4.1.0": {
-      "sha512": "2NlsRts2YuK85Cgxl+Q7hnUhRVmsnvvUmqDlMFD9VUNmAQWSdjt0A+BO4se7IfDWMU3nQszN1mBJkWEhOB5ybA==",
+    "Pathoschild.Stardew.ModBuildConfig/4.1.1": {
+      "sha512": "iLEtUWuj+vFTa0HNJmOm0yMIx5ZnED3WHxM1groLUUcFQWV63IMyF5lSQ9d0dteFu7t2dbl/scLwHBdjk0d7AA==",
       "type": "package",
-      "path": "pathoschild.stardew.modbuildconfig/4.1.0",
+      "path": "pathoschild.stardew.modbuildconfig/4.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -371,15 +413,16 @@
         "build/SMAPI.Toolkit.dll",
         "build/find-game-folder.targets",
         "images/icon.png",
-        "pathoschild.stardew.modbuildconfig.4.1.0.nupkg.sha512",
+        "pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512",
         "pathoschild.stardew.modbuildconfig.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5.2": [
+      "Lib.Harmony >= 2.2.2",
       "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3",
-      "Pathoschild.Stardew.ModBuildConfig >= 4.1.0"
+      "Pathoschild.Stardew.ModBuildConfig >= 4.1.1"
     ]
   },
   "packageFolders": {
@@ -388,11 +431,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/theresa/Desktop/source/CandidConversationsMod/CandidConversationsMod/CandidConversationsMod.csproj",
+      "projectUniqueName": "/Users/theresa/Desktop/source/CandidConversationsMod/smapi/CandidConversationsMod/CandidConversationsMod.csproj",
       "projectName": "CandidConversationsMod",
-      "projectPath": "/Users/theresa/Desktop/source/CandidConversationsMod/CandidConversationsMod/CandidConversationsMod.csproj",
+      "projectPath": "/Users/theresa/Desktop/source/CandidConversationsMod/smapi/CandidConversationsMod/CandidConversationsMod.csproj",
       "packagesPath": "/Users/theresa/.nuget/packages/",
-      "outputPath": "/Users/theresa/Desktop/source/CandidConversationsMod/CandidConversationsMod/obj/",
+      "outputPath": "/Users/theresa/Desktop/source/CandidConversationsMod/smapi/CandidConversationsMod/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/theresa/.nuget/NuGet/NuGet.Config"
@@ -419,6 +462,10 @@
       "net452": {
         "targetAlias": "net4.5.2",
         "dependencies": {
+          "Lib.Harmony": {
+            "target": "Package",
+            "version": "[2.2.2, )"
+          },
           "Microsoft.NETFramework.ReferenceAssemblies": {
             "suppressParent": "All",
             "target": "Package",
@@ -427,10 +474,10 @@
           },
           "Pathoschild.Stardew.ModBuildConfig": {
             "target": "Package",
-            "version": "[4.1.0, )"
+            "version": "[4.1.1, )"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
       }
     }
   }

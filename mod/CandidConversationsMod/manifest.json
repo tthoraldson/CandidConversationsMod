@@ -6,5 +6,11 @@
   "UniqueID": "tthoraldson.candidConversations",
   "EntryDll": "CandidConversationsMod.dll",
   "MinimumApiVersion": "3.0.0",
-  "UpdateKeys": []
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.29.0"
+    }
+  ]
 }
