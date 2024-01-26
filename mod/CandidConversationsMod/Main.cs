@@ -20,6 +20,7 @@ namespace CandidConversationsMod
         /// <param name="helper">Provides simplified APIs for writing mods.</param>
         public override void Entry(IModHelper helper)
         {
+            this.Monitor.Log("We're just getting started~");
             // this.textInput = this.Helper.Content.Load<TextInput>("assets/data.json").GetTextInputHelper();
             this.Helper.Events.GameLoop.GameLaunched += this.onGameLaunched;
             this.Helper.Events.Input.ButtonPressed += this.OnButtonPressed;

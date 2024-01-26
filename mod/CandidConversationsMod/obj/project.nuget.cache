@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/vmE2FnfBdtDNBMYyoyFSl/znaLdobnpOdASXTB+k3nWx84I9AOutEJ040ArpgXKueHKLaPK1l18Sx14woE8Rg==",
+  "dgSpecHash": "cCSRPSU0W+J5f8JP00BWWSTKCkgh+/ocBq09J35vwPNmHiWuIX9zL8X4VehBy0fB98cMM7niU7C5BdA8rmmwnw==",
   "success": true,
-  "projectFilePath": "/Users/theresa/Desktop/source/CandidConversationsMod/smapi/CandidConversationsMod/CandidConversationsMod.csproj",
+  "projectFilePath": "/Users/theresa/Desktop/source/CandidConversationsMod/mod/CandidConversationsMod/CandidConversationsMod.csproj",
   "expectedPackageFiles": [
     "/Users/theresa/.nuget/packages/lib.harmony/2.2.2/lib.harmony.2.2.2.nupkg.sha512",
     "/Users/theresa/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
